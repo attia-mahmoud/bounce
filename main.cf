@@ -1,0 +1,7 @@
+myhostname = mail.mydomain.com
+mydomain = mydomain.com
+myorigin = $mydomain
+inet_interfaces = all
+mydestination = $myhostname, localhost.$mydomain, $mydomain, localhost
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+smtpd_client_restrictions = permit
