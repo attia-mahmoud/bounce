@@ -1,6 +1,6 @@
 HELO attacker.com
-MAIL FROM: attacker@attacker.com
-RCPT TO: victim@victim.com
+MAIL FROM: <attacker@attacker.com>
+RCPT TO: <victim@victim.com>
 DATA
 Subject: Test Email
 
