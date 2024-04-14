@@ -1,3 +1,6 @@
+# Specify the network or hosts allowed to use this relay
+mynetworks = 192.168.0.0/24
+
 myhostname = mail.mydomain.com
 mydomain = mydomain.com
 myorigin = $mydomain
