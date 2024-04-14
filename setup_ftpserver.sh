@@ -7,9 +7,8 @@ cd /home/FTP-shared/
 mkdir download
 mkdir upload
 cd /home
-sudo chmod 755 FTP-shared
+chmod 755 FTP-shared
 cd FTP-shared
-sudo chmod 755 download
-sudo chmod 777 upload
-rm /etc/proftpd/proftpd.conf
+chmod 755 download
+chmod 777 upload
 cp proftpd.conf /etc/proftpd
