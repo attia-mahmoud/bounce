@@ -12,3 +12,4 @@ cd FTP-shared
 chmod 755 download
 chmod 777 upload
 cp proftpd.conf /etc/proftpd
+service proftpd start
