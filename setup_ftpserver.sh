@@ -1,4 +1,4 @@
-apt-get install proftpd
+apt-get install proftpd -y
 echo "/bin/false" >> /etc/shells
 cd /home
 mkdir FTP-shared
