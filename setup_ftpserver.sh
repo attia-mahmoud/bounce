@@ -11,5 +11,5 @@ chmod 755 FTP-shared
 cd FTP-shared
 chmod 755 download
 chmod 777 upload
-cp /cs231-project/proftpd.conf /etc/proftpd
+cp /bounce/proftpd.conf /etc/proftpd
 service proftpd start
